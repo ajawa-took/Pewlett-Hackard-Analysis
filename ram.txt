@@ -1,0 +1,66 @@
+
+	departments
+
+dept_no	dept_name
+string	string
+PK
+
+
+	dept_emp
+
+emp_no	dept_no	from_date	to_date
+INT		VARCHAR	date?		date?
+FK		FK
+
+  NO primary key! because:
+10327	d005	1987-09-18	1988-05-10
+10327	d008	1988-05-10	1993-05-22
+
+
+	dept_manager
+
+dept_no	emp_no	from_date	to_date
+varchar	int		date?		date?
+FK		FK
+
+  again, no PK?
+
+	employees
+
+emp_no	birth_date	first_name	last_name	gender	hire_date
+INT		date?		varchar	varchar	varchar	date?
+PK
+
+
+	salaries
+emp_no	salary	from_date	to_date
+int		int		date?		date?
+FK
+
+  again, no PK?
+
+	titles
+emp_no	title		from_date	to_date
+int		varchar	date?		date?
+FK
+
+  again, no PK?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
