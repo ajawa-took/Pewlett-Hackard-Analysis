@@ -104,3 +104,5 @@ where (t.to_date = '9999-01-01' )
  and (d.to_date = '9999-01-01')
  and (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 order by e.emp_no;
+
+SELECT count (*) from mentorship_eligibilty;
