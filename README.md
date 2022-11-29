@@ -19,13 +19,12 @@
 
 
 ## Summary
-### further analysis
 
-Two further questions.
+### Two further questions.
 1. What titles to the employees eligible for mentorship hold? This would help Pew-Hack provide appropriate mentorship.
 2. What salaries do the employees eligible for retirement currently have? This would help Pew-Hack estimate its pension obligations: this data is from 1990s when most retirement plans are defined-benefit.
 
-Two additional queries.
+### Two additional queries.
 
 1. The suggested approach for building the mentorship table selects one of an employee's titles at random. We already improved the query to select the most recent title instead:
 ```
